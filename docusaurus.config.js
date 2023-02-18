@@ -67,6 +67,27 @@ const config = {
         },
       };
     },
+    [
+      '@docusaurus/plugin-content-docs',
+      // {
+      //   id: 'docs',
+      //   path: 'docs/docs',
+      //   routeBasePath: 'docs',
+      //   sidebarPath: require.resolve('./docs/sidebars.js'),
+      //   editUrl:
+      //     'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+      //   remarkPlugins: [remarkAttr],
+      // },
+      {
+        id: 'components',
+        path: 'docs/components',
+        routeBasePath: 'components',
+        sidebarPath: require.resolve('./docs/sidebars-components.js'),
+        editUrl:
+          'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+        remarkPlugins: [remarkAttr],
+      }
+    ],
   ],
 
   presets: [
@@ -75,9 +96,11 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
+          sidebarPath: require.resolve('./docs/sidebars-docs.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
+          path: 'docs/docs',
+          routeBasePath: 'docs',
           editUrl:
             'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
           remarkPlugins: [remarkAttr],
@@ -164,10 +187,28 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'getting-started',
+            docId: 'tutorial-basics/create-a-page',
             position: 'left',
             label: 'Docs',
           },
+          {
+            to: '/components/layout/containers',
+            label: 'Components',
+            position: 'left',
+            activeBaseRegex: `/components/`,
+          },
+          // {
+          //   type: 'docSidebar',  // docSidebar
+          //   position: 'left',
+          //   sidebarId: 'docs', // foldername
+          //   label: 'Docs',     // navbar title
+          // },
+          // {
+          //   type: 'docSidebar',  // docSidebar
+          //   position: 'left',
+          //   sidebarId: 'components', // foldername
+          //   label: 'Components',     // navbar title
+          // },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/facebook/docusaurus',
