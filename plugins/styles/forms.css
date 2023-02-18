@@ -4,7 +4,7 @@
   }
 
   .form-input {
-    @apply block w-full py-2 px-3 leading-normal border rounded appearance-none;
+    @apply block w-full py-2 px-3 leading-normal border border-gray-300 rounded appearance-none;
   }
   .form-input:focus {
     @apply outline-none ring ring-opacity-50;
@@ -26,7 +26,7 @@
    * Line
    */
   .form-input-line {
-    @apply border-l-0 border-r-0 border-b border-gray-500 rounded-none px-0 transition duration-300;
+    @apply border-l-0 border-r-0 border-b border-gray-300 rounded-none px-0 transition duration-300;
     border-top-color: transparent !important;
   }
   .form-input-line:focus {
@@ -208,7 +208,7 @@
    * Line
    */
   .form-control-line {
-    @apply border-l-0 border-t-0 border-r-0 border-b border-gray-500 rounded-none px-0 transition duration-300;
+    @apply border-l-0 border-t-0 border-r-0 border-b border-gray-300 rounded-none px-0 transition duration-300;
   }
   .form-control-line:focus {
     @apply border-blue;
