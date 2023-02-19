@@ -12,7 +12,7 @@ export default function GettingStartedCdn() {
             showLineNumbers
           >
 {`<link rel="stylesheet" href="path/to/external-libs.min.css" crossorigin="anonymous" />
-<link rel="stylesheet" href="/path/to/randelltuazon.min.css" crossorigin="anonymous" />
+<link rel="stylesheet" href="/path/to/avgui.min.css" crossorigin="anonymous" />
 
 <script src="path/to/external-libs.min.js" crossorigin="anonymous"></script>
 `}

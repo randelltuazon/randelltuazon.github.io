@@ -27,13 +27,13 @@ export default function BoilerplateTemplate() {
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.13.0/css/all.min.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.13.0/css/v4-shims.min.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flag-icon-css@3.5.0/css/flag-icon.min.css" />
-    <link rel="stylesheet" href="/path/to/randelltuazon.min.css" />
+    <link rel="stylesheet" href="/path/to/avgui.min.css" />
     <link rel="stylesheet" href="/path/to/overrides.css">
     <title>Boilerplate Page</title>
   </head>
   <body>
     <h1>Hello, World!</h1>
-    <script src="/path/to/randelltuazon.min.js"></script>
+    <script src="/path/to/avgui.min.js"></script>
   </body>
 </html>
 `}

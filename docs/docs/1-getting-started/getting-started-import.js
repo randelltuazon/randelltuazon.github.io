@@ -11,7 +11,7 @@ export default function GettingStartedImport() {
             title="/global.css"
             showLineNumbers
           >
-{`@import './path/to/randelltuazon.css'
+{`@import './path/to/avgui.css'
 `}
           </CodeBlock>
         </div>

@@ -5,7 +5,7 @@ This website is built using [Docusaurus 2](https://docusaurus.io/), a modern sta
 
 ## Installation
 ```
-@import 'randelltuazon/plugins/styles/index.css';
+@import 'avgui/plugins/styles/index.css';
 ```
 
 ## Safelisted classes
@@ -25,6 +25,9 @@ bs-tooltip-bottom
 bs-tooltip-start
 bs-tooltip-auto
 
+collapsing
+
+modal-backdrop
 modal-open
 modal-scrollbar-measure
 ```
