@@ -7,8 +7,8 @@
 
 @import "tailwindcss/base";       /* @tailwind base; */
 @import "./preflight.ext.css";
-@import "tailwindcss/components"; /* @tailwind components; */
 @import "./reset.css";
+@import "tailwindcss/components"; /* @tailwind components; */
 @import "tailwindcss/utilities";  /* @tailwind utilities; */
 @import "./utilities.ext.css";
 @import "../../plugins/styles/index";

@@ -4,6 +4,11 @@
   padding: 0;
 }
 
+.card {
+  box-shadow: none;
+  overflow: initial;
+}
+
 .markdown li + li {
   margin-top: 0;
 }

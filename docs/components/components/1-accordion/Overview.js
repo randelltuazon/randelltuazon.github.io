@@ -8,11 +8,11 @@ export default function Overview() {
       <FeatureBlock.Body>
         <div className="accordion" id="accordionExample">
           <div className="card">
-            <div id="headingOne" className="flex-auto px-4 py-2 border-b border-black border-opacity-10 bg-black bg-opacity-05">
+            <div id="headingOne" className="flex-auto border-b border-black border-opacity-10 bg-black bg-opacity-5">
               <h2 className="text-base mb-0">
                 <button
                   type="button"
-                  className="btn relative text-left w-full bg-transparent underline text-blue hover:text-blue-700 focus:text-blue-700 focus:z-1"
+                  className="btn relative text-left w-full bg-transparent border-transparent underline text-blue hover:text-blue-700 focus:text-blue-700 focus:z-1 focus:ring"
                   data-bs-toggle="collapse"
                   data-bs-target="#collapseOne"
                   aria-expanded="true"
@@ -29,11 +29,11 @@ export default function Overview() {
             </div>
           </div>
           <div className="card">
-            <div id="headingTwo" className="flex-auto px-4 py-2 border-b border-black border-opacity-10 bg-black bg-opacity-05">
+            <div id="headingTwo" className="flex-auto border-b border-black border-opacity-10 bg-black bg-opacity-5">
               <h2 className="text-base mb-0">
                 <button
                   type="button"
-                  className="collapsed btn relative text-left w-full bg-transparent underline text-blue hover:text-blue-700 focus:text-blue-700 focus:z-1"
+                  className="collapsed btn relative text-left w-full bg-transparent border-transparent underline text-blue hover:text-blue-700 focus:text-blue-700 focus:z-1"
                   data-bs-toggle="collapse"
                   data-bs-target="#collapseTwo"
                   aria-expanded="true"
@@ -50,11 +50,11 @@ export default function Overview() {
             </div>
           </div>
           <div className="card">
-            <div id="headingThree" className="flex-auto px-4 py-2 border-b border-black border-opacity-10 bg-black bg-opacity-05">
+            <div id="headingThree" className="flex-auto border-b border-black border-opacity-10 bg-black bg-opacity-5">
               <h2 className="text-base mb-0">
                 <button
                   type="button"
-                  className="collapsed btn relative text-left w-full bg-transparent underline text-blue hover:text-blue-700 focus:text-blue-700 focus:z-1"
+                  className="collapsed btn relative text-left w-full bg-transparent border-transparent underline text-blue hover:text-blue-700 focus:text-blue-700 focus:z-1"
                   data-bs-toggle="collapse"
                   data-bs-target="#collapseThree"
                   aria-expanded="true"
