@@ -4,7 +4,7 @@
   }
 
   .page-link {
-    @apply relative block no-underline border py-1 px-3;
+    @apply relative block no-underline border border-gray-300 py-1 px-3;
   }
   .active > .page-link,
   .page-link.active {
@@ -13,6 +13,9 @@
   .disabled > .page-link,
   .page-link.disabled {
     @apply text-gray-700 pointer-events-none bg-white opacity-75;
+  }
+  .page-link:hover {
+    @apply no-underline;
   }
   .page-link:focus {
     @apply outline-none ring ring-opacity-50 z-1;

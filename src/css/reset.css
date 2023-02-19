@@ -13,6 +13,10 @@
   margin-top: 0;
 }
 
+.pagination {
+  column-gap: normal;
+}
+
 #__docusaurus > .navbar {
   position: sticky;
   height: var(--ifm-navbar-height);
